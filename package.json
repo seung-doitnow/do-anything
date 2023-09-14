@@ -1,13 +1,15 @@
 {
-  "name": "blog",
+  "name": "do-anything",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/seung-doitnow/do-anything",
+  "author": "seung.doitnow <seung.doitnow@gmail.com>",
   "license": "MIT",
   "type": "module",
   "dependencies": {
+    "@prisma/client": "^5.3.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "joi": "^17.10.0",
-    "mongoose": "^7.4.5"
+    "prisma": "^5.3.0"
   }
 }
